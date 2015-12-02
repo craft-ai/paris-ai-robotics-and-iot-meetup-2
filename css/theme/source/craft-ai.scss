@@ -1,0 +1,81 @@
+/**
+ * Black theme for reveal.js. This is the opposite of the 'white' theme.
+ *
+ * Copyright (C) 2015 Hakim El Hattab, http://hakim.se
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(../../lib/font/source-sans-pro/source-sans-pro.css);
+
+$craftai-violet: rgb(66,52,139);
+$grey: #333333;
+$white: #ffffff;
+
+$backgroundColor: $white;
+
+$mainColor: $grey;
+$headingColor: $craftai-violet;
+
+$mainFontSize: 38px;
+$mainFont: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$headingFont: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: normal;
+$headingFontWeight: 600;
+$linkColor: $craftai-violet;
+$linkColorHover: lighten( $linkColor, 15% );
+$selectionBackgroundColor: lighten( $linkColor, 25% );
+
+$heading1Size: 2.5em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
+.reveal section {
+  img {
+    max-height: 95%;
+    max-width: 95%;
+    &.no-bg {
+      border: none;
+      background: none;
+      box-shadow: none;
+    };
+    &.logo {
+      border: none;
+      background: none;
+      box-shadow: none;
+      max-height: 100px;
+      max-width: 300px;
+      display: inline;
+    };
+    &.stamp {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      height: 50px;
+      border: none;
+      background: none;
+      box-shadow: none;
+    }
+  };
+  .loading {
+    background: url('http://www.craft.ai/media/craft_ai_bouncing_stanley.gif') center center no-repeat;
+  };
+  h1, h2, h3, h4, h5, h6, p, em {
+    &.light {
+      color: $white;
+    };
+  };
+}
