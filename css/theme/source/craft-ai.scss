@@ -79,3 +79,13 @@ $heading4Size: 1.0em;
     };
   };
 }
+.speaker-notes {
+  p {
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+  a {
+    color: $white;
+    text-decoration: underline;
+  }
+}
