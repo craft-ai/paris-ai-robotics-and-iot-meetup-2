@@ -58,8 +58,8 @@
           <h1>There's a problem with IoT</h1>
           <em class="fragment">(well, there's one I'm gonna talk about)</em>
           <aside class="notes" data-markdown>
-            The objective of IoT is to help people in their day-to-day life,
-            however, we believe most of the proposed services are not so
+            The objective of IoT is to help people in their day-to-day life.
+            However, we believe most of the proposed services are not so
             helpful...
           </aside>
         </section>
@@ -72,8 +72,9 @@
           <section>
             <h1>Dashboards</h1>
             <aside class="notes" data-markdown>
-              The first big trend is: **dashboards**. Let's confuse our users
-              for aircraft pilots and give them a bunch of graphs, metrics and
+              The first big trend is: **dashboards** to see data
+              coming from objects and send commands. Let's confuse end users
+              with aircraft pilots and give them a bunch of graphs, metrics and
               actuators to play with.
             </aside>
           </section>
@@ -89,28 +90,30 @@
           <section>
             <img src='img/smartthings-dashboard.png'/>
             <aside class="notes" data-markdown>
-              This is the result of a zealous users showing everything she can
+              This is the result of a zealous user showing everything she can see
               in the [SmartThings](http://www.smartthings.com/) dashboards. Pie
-              charts, flags, bar graphs, science! I don't believe someone needs
-              to have all of this accessible directly!
+              charts, flags, bar graphs, science! I don't believe that this
+              information is very useful or actionable for the user.
             </aside>
           </section>
 
           <section>
             <img src='img/zipato-dashboard.png'/>
             <aside class="notes" data-markdown>
-              Just a last one in a Smart Home context from
-              [Zipato](http://zipato.com/), this time the user is not only given
-              metrics, but also direct control on an array of actuators.
+              Just one more example, in a Smart Home context from
+              [Zipato](http://zipato.com/). This time the user is not only given
+              metrics, but also direct control over an array of actuators... which
+              he has to manipulate one by one.
             </aside>
           </section>
 
           <section>
             <h1>Notifications</h1>
             <aside class="notes" data-markdown>
+              Another big trend is notifications.
               In practice, users don't go to their dashboard to _pull_
               informations, hence this other strategy: _pushing_ notifications
-              in real-time, as they occur.
+              in real-time, as events occur.
             </aside>
           </section>
 
@@ -125,9 +128,9 @@
           <section>
             <img src='img/smartthings-notifications.png'/>
             <aside class="notes" data-markdown>
-              But this can get quickly out of hand, here 3 simultaneous
-              notifications are sent, from a single SmartThings service.
-              This is not unusual and is a consequence of the lack of reasoning
+              But this can quickly get out of hand. Here 3 simultaneous
+              notifications are sent from a single SmartThings service.
+              This is not unusual and it is a consequence of the lack of reasoning
               on incoming events: in this case, _Baby Cakes_ and
               _rose@securitygem.com_ probably arrived together through the
               Garage.
@@ -160,7 +163,7 @@
           <section>
             <h1>Smart Services are...</h1>
             <aside class="notes" data-markdown>
-              Hopefully, it's not impossible to find services that are actually smart.
+              Services can be actually smart.
             </aside>
           </section>
 
@@ -168,9 +171,9 @@
             <img src='img/nest.jpg'/>
             <aside class="notes" data-markdown> The [Nest
               Thermostat](https://nest.com/thermostat/meet-nest-thermostat/) is
-              one of our reference. It delivers a useful service by having a
+              one of our references. It provides a useful service by having a
               smart and simple UX and by seamlessly **learning** from the users
-              inputs as well as reacting to its **context**, the presence of
+              input as well as reacting to its **context**, the presence of
               someone in the house.
             </aside>
           </section>
@@ -178,21 +181,21 @@
           <section>
             <img src='img/prizm.jpg'/>
             <aside class="notes" data-markdown>
-              Another example of smart service around a connected device is
-              [Prizm](http://www.meetprizm.com), a virtual DJ that'll chose the
+              Another example of a smart service around a connected device is
+              [Prizm](http://www.meetprizm.com), a virtual DJ that chooses the
               best music to play based what it perceives about the **context**
-              and what it has **learnt** about the users tastes.
+              and what it has **learned** about the users tastes.
             </aside>
           </section>
 
           <section>
             <img class='no-bg' src='img/siri.png'/>
             <aside class="notes" data-markdown>
-              Outside of IoT, several **virtual assistant** are emerging, they
-              provide services that are perceived as _intelligent_ and are
-              useful. [Apple Siri](http://www.apple.com/ios/siri/) is able to
-              answer to queries in the **context** they're made, for example the
-              currently playing movie, and based on information it has on the
+              Outside of IoT, several **virtual assistants** are emerging. They
+              provide services that are perceived as _intelligent_ and
+              useful by users. [Apple Siri](http://www.apple.com/ios/siri/) is able to
+              answer queries in **context**, for example they take into account which
+              movie is currently playing, and based on information it has on the
               user.
             </aside>
           </section>
@@ -201,7 +204,7 @@
             <img class='no-bg' src='img/google-now.png'/>
             <aside class="notes" data-markdown>
               [Google Now](https://www.google.com/landing/now/) relies on its
-              user's **context** to proactively pushing her useful information.
+              user's **context** to proactively push useful information.
             </aside>
           </section>
 
@@ -210,8 +213,8 @@
             <aside class="notes" data-markdown>
               [Facebook
               M](http://www.wired.com/2015/08/facebook-launches-m-new-kind-virtual-assistant/)
-              is the latests addition to this family providing a full fledged
-              concierge even relying on human to deliver smartness.
+              is the latest addition to this family. It provides a full-fledged
+              concierge, even relying on humans to deliver smartness.
             </aside>
           </section>
         </section>
@@ -223,15 +226,15 @@
             <h1 class="fragment">Learning</h1>
             <aside class="notes" data-markdown>
               Two aspects are common to these 5 examples of smart services:
-                - **Awareness**, i.e. gathering and leveraging data from the usage _context_ through sensors or connection to existing services (messaging, social, ...);
-                - **Learning**, i.e. progressively understand how each individual user interact with the service, its taste and preferences.
+                - **Awareness**, i.e. gathering and leveraging data from the _context_ through sensors or connection to existing services (messaging, social, ...);
+                - **Learning**, i.e. progressively understanding how each individual user interacts with the service, its tastes and preferences.
             </aside>
           </section>
           <section>
             <h1>AI!</h1>
             <img class='no-bg' src='img/glados.png'/>
             <aside class="notes" data-markdown>
-              Of course, **AI** techniques can be used to enable this _awareness_ and _learning_.
+              **AI** techniques can be used to enable _awareness_ and _learning_.
             </aside>
           </section>
           <section>
@@ -239,8 +242,8 @@
             <img src='img/data-scientist.jpg'/>
             <aside class="notes" data-markdown>
               I'm sure most of you associate AI to _Big Data_ & _Statistical
-              Machine Learning_, maybe you're convinced you ned to hire a **Data
-              Scientist** right now!
+              Machine Learning_, maybe you're convinced you need to hire a **Data
+              Scientist** right now! But there is much more to AI.
             </aside>
           </section>
           <section>
@@ -265,8 +268,8 @@
             <h1>Maybe, there's another way to do AI!</h1>
             <aside class="notes" data-markdown>
               We need to take a step back and think again. With our need for
-              **awareness** and **learning**, we can find a better way to apply
-              AI techniques.
+              **awareness** and **learning**, we can find better AI techniques and
+              better ways to apply them.
             </aside>
           </section>
         </section>
@@ -275,8 +278,8 @@
             <h1 class='light'>But first, some background</h1>
             <em class='light fragment'>(let's see how video games can help with our IoT problem)</em>
             <aside class="notes" data-markdown>
-              To understand where we're coming form, let me give you a little
-              bit of background on my experience working on **game AI**
+              To understand where our ideas on AI come form, let me give you a little
+              bit of background on our experience working on **game AI**
               technologies for several years.
             </aside>
           </section>
@@ -287,8 +290,8 @@
             <aside class="notes" data-markdown>
               **Game AI** covers a variety of techniques designed to create
               autonomous characters in several industries: Video Games (duh),
-              Movies, Training Simulation & Serious Games or any kind of
-              simulations of systems where humans are involved.
+              Movies, Training Simulation & Serious Games, or any
+              simulation of systems where humans are involved.
             </aside>
           </section>
           <section>
@@ -318,7 +321,7 @@
               modeling stack is used by Golaem Crowd a product dedicated to the
               cinema industry.
 
-              What's crucial is to enable to artists to **direct** the virtual
+              What's crucial is to enable artists to **direct** the virtual
               extras to achieve their vision. AI is at the service of this
               vision.
             </aside>
@@ -368,11 +371,11 @@
             </video>
             <aside class="notes" data-markdown>
               The main use case for LIFE is **military training simulation**.
-              In this example, the character are created to follow a specific
-              military doctrine.
+              In this example, the characters are created to follow specific
+              military procedures.
 
-              Reaching its pedagogical goals necessitates:
-              - a **controled environment** to make the trainee work on specific
+              Reaching its training goals requires:
+              - a **controlled environment** to make the trainee work on specific
               skills,
               - an **autonomous environment** that can react properly to
               whatever the trainee decides to do.
@@ -385,8 +388,8 @@
             <h1>Lessons Learned</h2>
             <aside class="notes" data-markdown>
               I've worked for 6 years in this field and, on top of being able to
-              show pretty videos, I learned some valuable lessons that are a core
-              part of **craft ai** vision.
+              show pretty videos, I learned some valuable lessons that are at the core
+              of **craft ai**'s vision.
             </aside>
           </section>
           <section>
@@ -397,8 +400,8 @@
             </p>
             <aside class="notes" data-markdown>
               Creating _"intelligent"_ interactions / experiences / services is
-              about convincing the end-user its intelligent and by fulfilling
-              her need.
+              about convincing the end-user they are intelligent and meet
+              her needs.
 
               More importantly, you don't need fancy algorithms to make
               something intelligent.
@@ -411,9 +414,10 @@
               Control | Predictability | Explainability
             </p>
             <aside class="notes" data-markdown>
-              In fact, given unlimited time & resources, labor-intensive
-              production of content, accounting for all possible cases would be
-              ideal. **AI techniques enables the creation of such content within
+              Designers know the ideal behavior their autonomous characters
+              should have, so given unlimited time & resources they could
+              create content accounting for all possible cases.
+              **AI techniques enables the creation of such content within
               realistic constraints**.
 
               That's why these techniques need to allow the same **Quality
@@ -441,8 +445,8 @@
           <section>
             <img class="no-bg" src='http://www.craft.ai/media/craft_ai_square_logo.png' height='600px'/>
             <aside class="notes" data-markdown>
-              **craft ai** is born from the realization that we can leverage
-              what we learn in Game AI to enable every developers to create
+              **craft ai** was born from the realization that we can leverage
+              what we learned in Game AI to enable every developer to create
               **aware** and **learning** services.
             </aside>
           </section>
@@ -453,7 +457,7 @@
             <p><strong>learning</strong> from their users</p>
             <h2 class="fragment">Directed Adaptable Agents</h2>
             <aside class="notes" data-markdown>
-              The approach we built **craft ai** from values the control of the
+              The approach behind **craft ai** values the control of the
               AI by the developer. This is key to make the solution efficient
               and easy to use. We focus our effort on enabling the creation of
               useful services for the end-user.
@@ -468,7 +472,7 @@
             <aside class="notes" data-markdown>
               In practice, **craft ai** consists of two modules:
               - The [**workbench**](https://workbench.craft.ai) web app to
-              define and inspect how the agents **behaviors**;
+              define and inspect how the agents **behave**;
               - The cloud-based [**engine**](http://doc.craft.ai/integration/index.html)
               runs the behavors in **instances**, it is accessible with a
               REST API, it is used in two ways:
@@ -501,12 +505,12 @@
           <section>
             <img src='img/integrate.png'/>
             <aside class="notes" data-markdown>
-              Once defined, BTs can be ran by **craft ai** cloud-based engine
+              Once defined, BTs can be run by **craft ai**'s cloud-based engine
               and controlled through its [**REST API**]((http://doc.craft.ai/integration/index.html).
 
               An app using **craft ai** will create, generally, an **instance**
               per end-user, each consisting of one or more **agents** executing
-              BTs. During the instance lifetime each agent will store
+              BTs. During the instance's lifetime each agent will store
               information about the end-user in its knowledge. This will be used
               to make more personalized decisions, to **learn** from the user.
             </aside>
@@ -517,7 +521,7 @@
             </div> -->
             <img class="no-bg" src='img/ni.png' />
             <aside class="notes" data-markdown>
-              As mentionned earlier, the Nest Thermostat is an very good example
+              As mentionned earlier, the Nest Thermostat is a very good example
               of a _smart_ IoT service. That's why we implemented one using
               **craft ai**.
 
@@ -543,10 +547,10 @@
               <img class="logo" src='img/avidsen.png'/>
             </p>
             <aside class="notes" data-markdown>
-              We're working on the product since March 2015 and have released a
+              We've been working on the product since March 2015 and released a
               first version in October 2015. We're very lucky to already work with a
               range of early adopters in different industries. From personal
-              assistants to enterprise processes, **craft ai** is not only for
+              assistants to enterprise processes, **craft ai** is not just for
               IoT.
             </aside>
           </section>
@@ -580,19 +584,19 @@
             <p>Push relevant notifications</p>
             <p>Personalize assistants</p>
             <aside class="notes" data-markdown>
-              Most project used, or planned to use, some AI to implement their
-              service. The last two sections are perfect use cases for **craft
+              Most projects in the hackathon used, or planned to use, some AI to implement their
+              service. The last two points are perfect use cases for **craft
               ai**.
             </aside>
           </section>
           <section>
             <h1>SNCF Now</h1>
-            <h4>Signal equipment issues with a push of a button</h4>
+            <h4>Signal equipment issues with the push of a button</h4>
             <img height="400px" src='img/sncf-now.jpg'/>
             <aside class="notes" data-markdown>
               The **SNCF Now** team, winners of the mobility category, developed
-              a physical button, that can be placed on existing equipment in
-              trainstations, to let passenger report breakdowns and other issues.
+              a physical button, that can be placed on existing equipments in
+              train stations, to let passengers report breakdowns and other issues.
 
               The project includes a maintenance platform, powered by **craft
               ai**, that routes alerts to the right technician in the station.
@@ -605,7 +609,7 @@
             <aside class="notes" data-markdown>
               The **Smart Mirror**, winner of the beauty & wellness category, is
               a bathroom mirror with a camera and screen that is able to provide
-              personalized beauty advices based on scans from the camera, users
+              personalized beauty advices based on scans from the camera, user
               habits and external information such as the events in her day.
 
               **craft ai** is used to implement this personal assistant leveraging
@@ -642,11 +646,12 @@
             <h3>Usable tools are <strong>Whiteboxes</strong><h3>
             <aside class="notes" data-markdown>
               As a wrap-up for this presentation, I'd like to reemphasize my
-              main messages:
+              main point:
               - Awareness and learning are key to the creation of good services,
               especially in the IoT field,
-              - The concept of **whitebox** can really help making AI accessible
-              to every developers.
+              - The concept of **whitebox**, the understandable and controllable
+              behavior of services, can really help make AI accessible
+              to every developer.
             </aside>
           </section>
           <section>
