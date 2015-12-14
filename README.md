@@ -6,6 +6,7 @@ The content of this presentation is published under the [Attribution-NonCommerci
 
 ## Build Locally ##
 - `npm install`
+- `npm install -g grunt-cli`
 - `grunt serve`
 - open <http://localhost:8000>
 
