@@ -310,3 +310,11 @@ body {
 
 .reveal section h1.light, .reveal section h2.light, .reveal section h3.light, .reveal section h4.light, .reveal section h5.light, .reveal section h6.light, .reveal section p.light, .reveal section em.light {
   color: #ffffff; }
+
+.speaker-notes p {
+  margin-top: 0px;
+  margin-bottom: 5px; }
+
+.speaker-notes a {
+  color: #ffffff;
+  text-decoration: underline; }
